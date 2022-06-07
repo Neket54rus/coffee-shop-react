@@ -1,0 +1,22 @@
+.our-coffee {
+	&__header {
+		padding: 130px 0 84px 0;
+		background: url("../../../resources/our-coffee-header-bg.png") center center/cover no-repeat;
+		text-align: center;
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 58px;
+		color: #ffffff;
+	}
+}
+
+.pleasure {
+	&__header {
+		padding: 130px 0 84px 0;
+		background: url("../../../resources/pleasure-header-bg.png") center center/cover no-repeat;
+		text-align: center;
+	}
+}

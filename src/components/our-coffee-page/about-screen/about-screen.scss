@@ -1,0 +1,47 @@
+.about-screen {
+	padding: 70px 0 60px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0px 90px;
+		margin-bottom: 40px;
+	}
+
+	&__text {
+		max-width: 345px;
+		text-align: center;
+	}
+
+	&__title {
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 35px;
+		color: #000000;
+		margin-bottom: 20px;
+	}
+
+	&__dividing-strip-line1,
+	&__dividing-strip-line2 {
+		background-color: #000;
+	}
+
+	&__descr {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 20px;
+		text-align: center;
+		color: #000000;
+		margin-top: 25px;
+	}
+
+	&__hr {
+		width: 240px;
+		height: 1px;
+		background-color: #000;
+	}
+}
